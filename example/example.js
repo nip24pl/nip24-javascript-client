@@ -1,5 +1,5 @@
 /**
- * Copyright 2015-2020 NETCAT (www.netcat.pl)
+ * Copyright 2015-2022 NETCAT (www.netcat.pl)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,13 +14,13 @@
  * limitations under the License.
  *
  * @author NETCAT <firma@netcat.pl>
- * @copyright 2015-2020 NETCAT (www.netcat.pl)
+ * @copyright 2015-2022 NETCAT (www.netcat.pl)
  * @license http://www.apache.org/licenses/LICENSE-2.0
  */
 
 'use strict';
 
-var NIP24 = require('nip24client');
+const NIP24 = require('nip24client');
 
 // Utworzenie obiektu klienta usługi serwisu produkcyjnego
 // id – ciąg znaków reprezentujący identyfikator klucza API
@@ -28,11 +28,11 @@ var NIP24 = require('nip24client');
 // var nip24 = new NIP24.NIP24Client('id', 'key');
 
 // Utworzenie obiektu klienta usługi serwisu testowego
-var nip24 = new NIP24.NIP24Client();
+const nip24 = new NIP24.NIP24Client();
 
-var nip = '7171642051';
-var nip_eu = 'PL' + nip;
-var account_number = '49154000046458439719826658';
+const nip = '7171642051';
+const nip_eu = 'PL' + nip;
+const account_number = '49154000046458439719826658';
 
 // Sprawdzenie stanu konta
 nip24.getAccountStatus().then((account) => {
