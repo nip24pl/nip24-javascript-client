@@ -1,7 +1,7 @@
 {
-  "name": "nip24example",
-  "version": "1.2.8",
-  "description": "NIP24 Client for Javascript - Example",
+  "name": "nip24client-example",
+  "version": "1.2.9",
+  "description": "NIP24 Client for Javascript - node.js example",
   "author": "",
   "license": "Apache-2.0",
   "main": "example.js",

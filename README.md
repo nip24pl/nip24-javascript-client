@@ -1,6 +1,6 @@
 # NIP24 Client for JavaScript
 
-This is the official repository for NIP24 Client for JavaScript: https://nip24.pl
+This is the official repository for NIP24 Client for JavaScript: https://www.nip24.pl
 
 This library contains validators for common Polish tax numbers like NIP, REGON and KRS. Validators for EU VAT ID and IBAN
 are also included. After registration at NIP24 Portal this library could be used for various
@@ -8,7 +8,7 @@ on-line validations of Polish and EU companies. Please, visit our web page for m
 
 # Documentation
 
-The documentation and samples are available at https://nip24.pl/dokumentacja/
+The documentation and samples are available at https://www.nip24.pl/dokumentacja/
 
 # License
 

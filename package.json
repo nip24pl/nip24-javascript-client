@@ -1,7 +1,7 @@
 {
   "name": "nip24client",
-  "version": "1.2.8",
-  "description": "NIP24 Client for Javascript",
+  "version": "1.2.9",
+  "description": "NIP24 Client for JavaScript",
   "keywords": [
     "nip24",
     "api",
@@ -19,7 +19,7 @@
   ],
   "license": "Apache-2.0",
   "author": "NETCAT <firma@netcat.pl> (http://www.netcat.pl)",
-  "homepage": "https://nip24.pl",
+  "homepage": "https://www.nip24.pl",
   "repository": {
     "type": "git",
     "url": "https://github.com/nip24pl/nip24-javascript-client.git"
@@ -29,14 +29,11 @@
     "lib/",
     "index.js"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "dependencies": {
-    "date-fns": "^2.29.1",
-    "https": "^1.0.0",
+    "axios": "^0.27.2",
+    "date-fns": "^2.29.3",
     "url": "^0.11.0",
     "xmldom": "^0.6.0",
-    "xpath": "0.0.32"
+    "xpath": "^0.0.32"
   }
 }
