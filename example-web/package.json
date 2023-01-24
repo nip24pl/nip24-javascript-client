@@ -1,6 +1,6 @@
 {
   "name": "nip24client-example-web",
-  "version": "1.2.9",
+  "version": "1.3.0",
   "description": "NIP24 Client for Javascript - web browser example",
   "author": "",
   "license": "Apache-2.0",
