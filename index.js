@@ -1,5 +1,5 @@
 /**
- * Copyright 2015-2023 NETCAT (www.netcat.pl)
+ * Copyright 2015-2024 NETCAT (www.netcat.pl)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  * @author NETCAT <firma@netcat.pl>
- * @copyright 2015-2023 NETCAT (www.netcat.pl)
+ * @copyright 2015-2024 NETCAT (www.netcat.pl)
  * @license http://www.apache.org/licenses/LICENSE-2.0
  */
 
@@ -24,6 +24,7 @@
 module.exports = {
 	AccountStatus: require('./lib/accountstatus'),
 	AllData: require('./lib/alldata'),
+	BusinessPartner: require('./lib/businesspartner'),
 	Err: require('./lib/error'),
 	EUVAT: require('./lib/euvat'),
 	IBAN: require('./lib/iban'),
