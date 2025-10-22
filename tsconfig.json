@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "types": ["node"],
+    "lib": ["ES2020"],
+    "outDir": "types",
+    "moduleResolution": "Node",
+    "esModuleInterop": true
+  },
+  "include": ["index.js"]
+}

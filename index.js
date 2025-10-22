@@ -20,7 +20,6 @@
 
 'use strict';
 
-
 module.exports = {
 	AccountStatus: require('./lib/accountstatus'),
 	AllData: require('./lib/alldata'),
