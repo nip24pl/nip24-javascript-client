@@ -1,18 +1,27 @@
 {
   "name": "nip24client-example-web",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "description": "NIP24 Client for Javascript - web browser example",
   "author": "",
   "license": "Apache-2.0",
-  "type": "module",
   "scripts": {
-    "build": "browserify main.js | uglifyjs > dist/nip24client-bundle.min.js"
-  },
-  "devDependencies": {
-    "browserify": "latest",
-    "uglify-js": "latest"
+    "build": "webpack",
+    "start": "webpack serve"
   },
   "dependencies": {
     "nip24client": "file:.."
+  },
+  "devDependencies": {
+    "@types/webpack": "^5.28.5",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.1",
+    "events": "^3.3.0",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5",
+    "vm-browserify": "^1.1.2",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
   }
 }

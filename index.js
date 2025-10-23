@@ -20,25 +20,46 @@
 
 'use strict';
 
+const Err = require('./lib/error');
+const Number = require('./lib/number');
+const EUVAT = require('./lib/euvat');
+const IBAN = require('./lib/iban');
+const KRS = require('./lib/krs');
+const NIP = require('./lib/nip');
+const REGON = require('./lib/regon');
+const AccountStatus = require('./lib/accountstatus');
+const AllData = require('./lib/alldata');
+const BusinessPartner = require('./lib/businesspartner');
+const IBANStatus = require('./lib/ibanstatus');
+const InvoiceData = require('./lib/invoicedata');
+const NIP24Client = require('./lib/nip24client');
+const PKD = require('./lib/pkd');
+const SearchResult = require('./lib/searchresult');
+const VATEntity = require('./lib/vatentity');
+const VATPerson = require('./lib/vatperson');
+const VATStatus = require('./lib/vatstatus');
+const VIESData = require('./lib/viesdata');
+const WLStatus = require('./lib/wlstatus');
+
 module.exports = {
-	AccountStatus: require('./lib/accountstatus'),
-	AllData: require('./lib/alldata'),
-	BusinessPartner: require('./lib/businesspartner'),
-	Err: require('./lib/error'),
-	EUVAT: require('./lib/euvat'),
-	IBAN: require('./lib/iban'),
-	IBANStatus: require('./lib/ibanstatus'),
-	InvoiceData: require('./lib/invoicedata'),
-	KRS: require('./lib/krs'),
-	NIP: require('./lib/nip'),
-	NIP24Client: require('./lib/nip24client'),
-	Number: require('./lib/number'),
-	PKD: require('./lib/pkd'),
-	REGON: require('./lib/regon'),
-	SearchResult: require('./lib/searchresult'),
-	VATEntity: require('./lib/vatentity'),
-	VATPerson: require('./lib/vatperson'),
-	VATStatus: require('./lib/vatstatus'),
-	VIESData: require('./lib/viesdata'),
-	WLStatus: require('./lib/wlstatus')
+    Err,
+    Number,
+    EUVAT,
+    IBAN,
+    KRS,
+    NIP,
+    REGON,
+	AccountStatus,
+	AllData,
+	BusinessPartner,
+	IBANStatus,
+	InvoiceData,
+	NIP24Client,
+	PKD,
+	SearchResult,
+	VATEntity,
+	VATPerson,
+	VATStatus,
+	VIESData,
+	WLStatus
 };

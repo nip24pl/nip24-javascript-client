@@ -1,5 +1,12 @@
-export let NIP: number;
-export let REGON: number;
-export let KRS: number;
-export let EUVAT: number;
-export let IBAN: number;
+export = Number;
+/**
+ * Number types
+ * @type {{NIP:number, REGON:number, KRS:number, EUVAT:number, IBAN:number}}
+ */
+declare const Number: {
+    NIP: number;
+    REGON: number;
+    KRS: number;
+    EUVAT: number;
+    IBAN: number;
+};
